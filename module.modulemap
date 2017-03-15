@@ -4,6 +4,7 @@ module CSDL2 [system] {
     // This is needed for SwiftBGFX
     //header "/usr/include/SDL2/SDL_syswm.h"
     link "SDL2"
+    link "SDL2_gfx"
     export *
 
     // We do not make any of use of these in Fiber2D yet.
