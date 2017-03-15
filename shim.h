@@ -8,6 +8,10 @@
 
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_syswm.h>
+#include <SDL2/SDL2_framerate.h>
+#include <SDL2/SDL2_gfxPrimitives.h>
+#include <SDL2/SDL2_imageFilter.h>
+#include <SDL2/SDL2_rotozoom.h>
 
 void* SDL_SysWMinfo_init_version(SDL_SysWMinfo* info) {
     SDL_VERSION(&info->version);
